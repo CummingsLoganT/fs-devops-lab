@@ -19,7 +19,7 @@ rollbar.log("Hello world!");
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/index.html'))
-    // rollbar.log("Access HTML successfully");
+    rollbar.log("Access HTML successfully");
 })
 
 
